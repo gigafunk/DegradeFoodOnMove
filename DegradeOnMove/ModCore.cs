@@ -10,7 +10,7 @@ namespace DegradeOnMove
     public class DegradeOnMoveMod : BaseUnityPlugin
     {
         private const string ModName = "Degrade On Move";
-        private const string ModVersion = "1.0.0";
+        private const string ModVersion = "1.0.1";
         private const string ModGUID = "come.littleroom.dev";
         private static Harmony harmony = null!;
         ConfigSync configSync = new(ModGUID) 
